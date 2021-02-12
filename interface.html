@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lan="es">
+  <html>
+  <head>
+    <title>aprendiendp jquery</title>
+    <!--<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+-->
+
+<script type="text/javascript"src="js/jquery-3.5.1.min.js"></script>
+
+<link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css"/>
+<link rel="stylesheet" href="js/jquery-ui/jquery-ui.structure.min.css"/>
+<link rel="stylesheet" href="js/jquery-ui/jquery-ui.theme.min.css"/>
+
+
+<script type="text/javascript"src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript"src="js/interface.js"></script>
+
+<style>
+.elemento{
+  width:300px;
+  height:200px;
+  border:4px solid black;
+  background:lightblue;
+  margin:20px;
+  float:left;
+}
+.lista_seleccionable li{
+  width:80%%;
+  padding:20px;
+  border:1px solid #ccc;
+  list_style:none;
+  cursor:pointer;
+}
+
+ul .ui-selecting {background:green;}
+ul .ui-selected {background:blue;}
+
+#elemento-movido{
+    width:100px;
+  height:100px;
+  border:4px solid red;
+}
+#area{
+    width:300px;
+  height:300px;
+  border:4px solid green;
+}
+.elemento{
+ 
+  background:pink;
+  float:none;
+  display:none;
+
+
+
+</style>
+  </head>
+    <body>
+
+  
+              <h1>aprendiendo</h1>
+
+  <hr>
+  <h3>Tooltip</h3>
+  <a href="#" id="mis-datos" title="acceder a los datos de mi seccion">Mis Datos</a>
+  
+  
+  <hr>
+
+
+  <h3>Cuadros de dialogo</h3>
+  <button id="lanzar">lanzar</button>
+  <div id="popud" title="¿estas seguro?" style="display:none;">
+  <p>
+  debes continuar en el curso
+  </p>
+  </div>
+  <hr>
+
+  <h3>Calendario</h3>
+  <input type="text" id="calendario">
+  <br>
+  
+  <br>
+   <h3>Pestañas</h3>
+  <div id="pestanas">
+  <ul>
+    <li><a href="#tabs-1">Pestañas 1</a></li>
+    <li><a href="#tabs-2">Pestañas 2</a></li>
+    <li><a href="#tabs-3">Pestañas 3</a></li>
+
+  </ul>
+  <div id="tabs-1">
+  Hola soy la primera pestaña
+  </div>
+   <div id="tabs-1">
+  Hola soy la segunda pestaña
+  </div> <div id="tabs-1">
+  Hola soy la tercera pestaña
+  </div>
+  </div>
+  <br>
+  
+  <hr>
+
+  <button id="lanzar">lanzar</button>
+  <div id="popud" title="¿estas seguro?" style="display:none;">
+  <p>
+  debes continuar en el curso
+  </p>
+  </div>
+  <hr>
+  
+  
+
+    <a href="#" id="mis-datos" title="acceder a los datos de mi seccion">Mis Datos</a>
+    <a href="#" id="mis-datos" title="acceder a los contactos">contacto</a>
+    <a href="#" id="mis-datos" title="buqueda">Busqueda</a>
+
+  <hr>
+
+
+      <button id="mostrar">Mostrar</button>
+      <div class="caja-efectos elemento"></div>
+      <div id="elemento-movido" ></div>
+      <br>
+      <div id="area">
+      </div>
+
+
+  
+    <ul class="lista_seleccionable">
+      <li>gta 5</li>
+      <li>need for speed</li>
+      <li>fifa 21</li>
+      <li>gt5</li>
+      <li>star wars</li>
+      <li>f1</li>
+    </ul>
+            <div class="elemento">
+              hola soy un elemento 1
+            
+            </div>
+              <div class="elemento">
+              hola soy un elemento 2
+            
+            </div>  <div class="elemento">
+              hola soy un elemento 3
+            
+            </div>
+ 
+        
+
+    </body>
+</html>
+
